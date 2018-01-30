@@ -9,6 +9,53 @@ body {
 }
 
 #map {
-  height: 100vh;
-  width: 100vw;
+	height: 100vh;
+	flex-grow:3;
+}
+nav {
+	height: 30px;
+	background-color: orange;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+
+}
+.menu{
+	flex-grow:1;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-between;
+
+}
+#itinerary{
+	border:solid;
+	flex-grow:1;
+	
+	margin-top:20px;
+
+	/*align-items:flex-start;*/
+	background-color: green;
+	
+}	
+.menuone{
+	background-color: green;
+	
+	display: flex;
+	align-content:space-between;
+}
+.menutwo{
+	
+	display: flex;
+	align-content:space-between;
+}
+#selection{
+	margin-bottom:20px;
+	
+	flex-grow:1;
+	/*align-slef:flex-end;*/
+	border:solid;	
+	
+
 }
